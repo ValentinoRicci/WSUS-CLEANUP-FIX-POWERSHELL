@@ -1,5 +1,8 @@
 # WSUS-CLEANUP-FIX-POWERSHELL
 
+This script try to fix the *Error: Connection Error. Click Reset Server Node to try to connect to the server again.* in WSUS console.
+The issue is mainly due to the IIS provider when the WSUS is storing too many updates (more than 200k). The issue 
+
 Based on
 https://learn.microsoft.com/en-us/troubleshoot/mem/configmgr/update-management/wsus-automatic-maintenance
 
