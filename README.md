@@ -3,6 +3,8 @@
 Based on
 https://learn.microsoft.com/en-us/troubleshoot/mem/configmgr/update-management/wsus-automatic-maintenance
 
+https://github.com/ValentinoRicci/WSUS-CLEANUP-FIX-POWERSHELL/blob/main/SUSDB-Maintenance.ps1
+
 Requirements
 * Powershell MUST be run in Administrator mode.
 * WID must be local.
