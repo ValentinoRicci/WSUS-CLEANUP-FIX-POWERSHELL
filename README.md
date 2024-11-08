@@ -1,10 +1,17 @@
 # WSUS-CLEANUP-FIX-POWERSHELL
 
 This script try to fix the *Error: Connection Error. Click Reset Server Node to try to connect to the server again.* in WSUS console.
-The issue is mainly due to the IIS provider when the WSUS is storing too many updates (more than 200k). The issue 
 
-Based on
+![image](https://github.com/user-attachments/assets/1ff34b53-fbd3-4d3c-a95c-bd5d819e051d)
+
+The issue is mainly due to the IIS provider when the WSUS is storing too many updates (more than 200k). In this case the maximum size for content of an HTTP POST is more than 4GB...
+
+<h3> Based on </h3>
+
 https://learn.microsoft.com/en-us/troubleshoot/mem/configmgr/update-management/wsus-automatic-maintenance
+<h3>the only way is to reduce the updates count inside WSUS!!!</h3>
+
+<br>
 
 ## Maintain the Windows Server Update Services (WSUS) database manually or automatically
 Routine maintenance of the WSUS database (SUSDB) is important to ensure the application's health and optimal performance. This article describes concise steps and scripts to maintain SUSDB manually or automatically.
