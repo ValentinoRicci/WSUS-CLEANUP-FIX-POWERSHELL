@@ -5,6 +5,7 @@ This script try to fix the *Error: Connection Error. Click Reset Server Node to 
 ![image](https://github.com/user-attachments/assets/1ff34b53-fbd3-4d3c-a95c-bd5d819e051d)
 
 The issue is mainly due to the IIS provider when the WSUS is storing too many updates (more than 200k). In this case the maximum size for content of an HTTP POST is more than 4GB...
+In case of Updates just for W10 and W11 and Servers, **Drivers** MUST not be flagged. The Drivers will download hundredthousands updates.
 
 <h3> Based on </h3>
 
